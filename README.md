@@ -21,7 +21,18 @@ Note the Pythonic solution using heapq.merge. This might be handy in other situa
 
 Also checkout the Leetcode problem which asks to [merge sorted linked lists](https://leetcode.com/problems/merge-k-sorted-lists/). The same principles can be used there without explicitly creating the iterators.
 
-# 
+### Problem 10.3: Sort an almost sorted array
+
+Note the awesome usage of the [islice](https://docs.python.org/3/library/itertools.html#itertools.islice) function from itertools. Particularly note how to extract the first k and all but first k elements.
+
+The solution to this problem is probably wrong. The second for loop will be:
+
+_for x in itertools.islice(nums, k, None)_
+
+Otherwise the smallest values from first k elements are extracted twice.
+
+
+
 
 
 
