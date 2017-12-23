@@ -3,7 +3,31 @@ I have been learning lots of new Python features and programming techniques whil
 
 ## Table of Contents
 
+- [Chapter 5: Arrays](#chapter-5-arrays)
 - [Chapter 10: Heaps](#chapter-10-heaps)
+
+## Chapter 5: Arrays
+
+### Problem 5.2: Increment an arbitrary precision integer
+
+Note the phrase "arbitrary precision". That rules out the method of converting them into integers and adding them since overflow error might occur in some languages.
+
+This problem is a simple, however, note the slick way of adding a 1 in the front when an extra digit has to be added (for example, for 99, 999, etc.). In contrast to insert(0, 1) which takes O(n) time, the showed method is O(1). 
+
+### Problem 5.3: Multiply two arbitrary precision integers
+
+Note how the sign of the result is handled and how the size of the list is initialized. At the end, the leading zeros are removed by using generator and next(). Note the trick to obtain all the remaining items instead of just the next one.
+
+The same problem can be slightly modified by giving the input as strings for example as seen in [Leetcode](https://leetcode.com/problems/multiply-strings/description/). In this case, conversion from characters to integers and vice versa have to properly taken care off. Moreover, remember that str.join function doesn't automatically convert digits into strings.
+
+
+
+
+
+
+
+
+
 
 ## Chapter 10: Heaps
 
