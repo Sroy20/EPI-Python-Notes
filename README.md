@@ -30,11 +30,23 @@ Note how special care has to be taken for handling negative numbers and zeros.
 Furthermore, note the method of converting one character to one digit and vice-versa.
 
 One-character to one-digit: string.digits.index(c)
+
 One-digit to one-character: chr(ord('0')+i)
 
 Also note the beautiful usage of [functools.reduce()](https://docs.python.org/3/library/functools.html#functools.reduce) fuction. This function takes three inputs: a function, an iterable, an initializer and accumulates to return one value.
 
-### Problem 6.2: 
+### Problem 6.2: Base conversion
+
+Base conversion is a more general form and combination of the two programs of 6.1. Nevertheless, few things to note:
+
+The check at the middle of the program that determines whether the input number is negative or not should check for a leading '-' in the input string and not check whether the converted decimal is postive ot negative. This is to handle the -0 situation.
+
+Also note how the string.hexdigits is used to get the digit after base conversion. No need to maintain a dictionary. And upper() has to been used string in string.hexdigits after the numerals, lower case numbers are there.
+
+The time complexity is quite interesting.
+
+
+
 
 
 
