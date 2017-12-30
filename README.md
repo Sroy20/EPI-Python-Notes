@@ -4,6 +4,7 @@ I have been learning lots of new Python features and programming techniques whil
 ## Table of Contents
 
 - [Chapter 5: Arrays](#chapter-5-arrays)
+- [Chapter 6: String](#chapter-6-strings)
 - [Chapter 10: Heaps](#chapter-10-heaps)
 
 ## Chapter 5: Arrays
@@ -20,7 +21,20 @@ Note how the sign of the result is handled and how the size of the list is initi
 
 The same problem can be slightly modified by giving the input as strings for example as seen in [Leetcode](https://leetcode.com/problems/multiply-strings/description/). In this case, conversion from characters to integers and vice versa have to properly taken care off. Moreover, remember that str.join function doesn't automatically convert digits into strings.
 
+## Chapter 6: Strings
 
+### Problem 6.1: Interconvert strings and integers
+
+Note how special care has to be taken for handling negative numbers and zeros.
+
+Furthermore, note the method of converting one character to one digit and vice-versa.
+
+One-character to one-digit: string.digits.index(c)
+One-digit to one-character: chr(ord('0')+i)
+
+Also note the beautiful usage of [functools.reduce()](https://docs.python.org/3/library/functools.html#functools.reduce) fuction. This function takes three inputs: a function, an iterable, an initializer and accumulates to return one value.
+
+### Problem 6.2: 
 
 
 
