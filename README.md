@@ -5,6 +5,7 @@ I have been learning lots of new Python features and programming techniques whil
 
 - [Chapter 5: Arrays](#chapter-5-arrays)
 - [Chapter 6: String](#chapter-6-strings)
+- [Chapter 9: Binary Tree](#chapter-9-binary-trees)
 - [Chapter 10: Heaps](#chapter-10-heaps)
 
 ## Chapter 5: Arrays
@@ -45,7 +46,11 @@ Also note how the string.hexdigits is used to get the digit after base conversio
 
 The time complexity is quite interesting.
 
+## Chapter 9: Binary Trees
 
+### Problem 9.11: Implement an inorder traversal with O(1) space
+
+Note the assumption that nodes have parent fields.
 
 
 
