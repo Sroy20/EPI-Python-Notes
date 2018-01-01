@@ -7,6 +7,7 @@ I have been learning lots of new Python features and programming techniques whil
 - [Chapter 6: String](#chapter-6-strings)
 - [Chapter 9: Binary Tree](#chapter-9-binary-trees)
 - [Chapter 10: Heaps](#chapter-10-heaps)
+- [Chapter 10: Searching](#chapter-10-searching)
 
 ## Chapter 5: Arrays
 
@@ -87,6 +88,16 @@ The solution to this problem is probably wrong. The second for loop will be:
 _for x in itertools.islice(nums, k, None)_
 
 Otherwise the smallest values from first k elements are extracted twice.
+
+## Chapter 11: Searching
+
+### Problem 11.6: Search in a 2D sorted array
+
+Excellent problem demonstrating that the intuition of using binary search whenever there is something sorted might be always the best option.
+
+One thing to note is the given solution doesn't handle the corner case of the matrix being empty. A check has to be included before the initialization of indices.
+
+
 
 
 
