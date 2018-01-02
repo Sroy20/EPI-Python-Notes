@@ -7,7 +7,8 @@ I have been learning lots of new Python features and programming techniques whil
 - [Chapter 6: String](#chapter-6-strings)
 - [Chapter 9: Binary Tree](#chapter-9-binary-trees)
 - [Chapter 10: Heaps](#chapter-10-heaps)
-- [Chapter 10: Searching](#chapter-10-searching)
+- [Chapter 11: Searching](#chapter-10-searching)
+- [Chapter 16: Dynamic Programming](#chapter-16-dynamic-programming)
 
 ## Chapter 5: Arrays
 
@@ -96,6 +97,12 @@ Otherwise the smallest values from first k elements are extracted twice.
 Excellent problem demonstrating that the intuition of using binary search whenever there is something sorted might be always the best option.
 
 One thing to note is the given solution doesn't handle the corner case of the matrix being empty. A check has to be included before the initialization of indices.
+
+## Chapter 16: Dynamic programming
+
+Comparison of dynamic programming and memoization: https://stackoverflow.com/questions/6184869/what-is-the-difference-between-memoization-and-dynamic-programming
+
+
 
 
 
