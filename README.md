@@ -102,6 +102,10 @@ One thing to note is the given solution doesn't handle the corner case of the ma
 
 Comparison of dynamic programming and memoization: https://stackoverflow.com/questions/6184869/what-is-the-difference-between-memoization-and-dynamic-programming
 
+### Count the number of score combinations
+
+The standard reaching a given score with individual points can come in two flavours: either we are interested in combinations or permutations. Solve the problem accordingly.
+
 
 
 
