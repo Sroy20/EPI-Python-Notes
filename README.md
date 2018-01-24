@@ -8,6 +8,7 @@ I have been learning lots of new Python features and programming techniques whil
 - [Chapter 9: Binary Tree](#chapter-9-binary-trees)
 - [Chapter 10: Heaps](#chapter-10-heaps)
 - [Chapter 11: Searching](#chapter-10-searching)
+- [Chapter 15: Recursion](#chapter-15-recursion)
 - [Chapter 16: Dynamic Programming](#chapter-16-dynamic-programming)
 
 ## Chapter 5: Arrays
@@ -97,6 +98,14 @@ Otherwise the smallest values from first k elements are extracted twice.
 Excellent problem demonstrating that the intuition of using binary search whenever there is something sorted might be always the best option.
 
 One thing to note is the given solution doesn't handle the corner case of the matrix being empty. A check has to be included before the initialization of indices.
+
+## Chapter 15: Recursion
+
+### Generate all non-attacking placement of n queens
+
+Note the usage of recursion - think! Also note the time complexity.
+
+Another interesting thing is that when new solutions are appended to result, the list() function is used to get the current snapshot. Otherwise, object referencing might happen.
 
 ## Chapter 16: Dynamic programming
 
